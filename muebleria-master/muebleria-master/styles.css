@@ -1,0 +1,166 @@
+/* importar fuentes */
+@font-face {
+    font-family: "symbol";
+    src: url(font/websymbols-regular-webfont.ttf);
+}
+
+.Fontsymbol{
+    font-family: "symbol";
+}
+
+
+
+/* borrar estilos por defecto */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ /* inicio estilos del header */
+ header{
+     background-color: #ADA29A;
+     width: 100%;
+     height: 82px;
+ }
+    #parte1{
+        width: 95%;
+        height: 100%;
+        margin: 0px auto;
+    }
+        #parte1 h1{
+            display: block;
+            color: white;
+            float: left;
+            font-family: sans-serif;
+            line-height: 82px;
+            font-size: 35px;
+            width: 33%;
+            height: 55px;
+            text-align: left;
+        }
+        #parte1 #busqueda{
+            display: block;
+            float: left;
+            height: 37px;
+            margin-top: 22px;
+            width: 419px;  
+            background-color: white;
+            border-radius: 50px;
+            border: 1px solid gray;
+            }
+            #busqueda input[type="text"] {
+                display: block;
+                height: 37px;
+                width: 92%;
+                text-align: center;
+                font-size: 15px;
+                color: rgba(0, 0, 0, .4);
+                outline: none;
+                border: none;
+                border-radius: 50px 0px 0px 50px;
+            }
+            #busqueda input[type="button"]{
+                display: block;
+                float: right;
+                width: 8%;
+                height: 37px;
+                margin-top: -37px;
+                border-radius: 0px 19px 19px 0px;
+                border: none;
+                background-color: white;
+                font-size: 17px;
+                color: rgba(0, 0, 0, .25);
+                cursor: pointer;
+            }
+            #parte1 #botones{
+                height: 100%;
+                float: right;
+                width: 25%;
+                line-height: 82px;
+                font-family: sans-serif;
+            }
+
+                #botones input[type="button"]{
+                    width: 25%;
+                    height: 37px;
+                    margin-right: 20px;
+                    border-radius: 50px;
+                    background-color: #803333;
+                    border: 1px solid grey;
+                    color: white;
+                    font-size: 18px;
+                    cursor: pointer;
+                    font-family: sans-serif;
+                }
+    /* fin estilos de header  */
+
+    /* inicio estilos de nav */
+    #parte2{
+        height: 54px;
+        width: 100%;
+        background-color: #803333;
+    }
+
+        #parte2>ul{
+            width: 90%;
+            margin: 0px auto;
+            list-style: none;
+            text-align: center;
+        }
+
+        #parte2>ul>li{
+            float: left;
+            display: block;
+            margin: 0px auto;
+            margin-top: 10px;
+            height: 33px;
+            width: 10%;
+            border-radius: 50px;
+            line-height: 33px;
+            background-color: black;
+            color: white;
+            margin-right: 3%;
+            margin-left: 3%;
+            cursor: pointer;
+            font-family: sans-serif;
+        }
+        #parte2>ul>li:hover .listasecundaria{
+            display:block;
+        }
+        #parte2 #down{
+            margin-top: -10px;
+            margin-right: 8px;
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            font-size: 15px;
+            font-size: 20px;
+        }
+        #parte2 #name{
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            font-size: 15px;
+        }
+
+            .listasecundaria{
+                display: none;
+            }
+            .listasecundaria>li{
+                background-color: black;
+                list-style: none;
+                border-bottom: 1px solid #ccc;
+                border-radius: 0px;
+                height: 48px;
+            }
+            .listasecundaria>li:hover{
+                background-color: #803333;
+            }
+            .listasecundaria>li a{
+                color: white;
+                text-decoration: none;
+                line-height: 48px;
+                
+            }
+    /* fin de estilos de nav  */
+
+      
