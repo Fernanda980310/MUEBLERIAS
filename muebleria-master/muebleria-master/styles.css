@@ -148,6 +148,7 @@
 
             .listasecundaria{
                 display: none;
+                position: relative;
             }
             .listasecundaria>li{
                 background-color: black;
@@ -155,6 +156,7 @@
                 border-bottom: 1px solid #ccc;
                 border-radius: 0px;
                 height: 48px;
+                width: 100%;
             }
             .listasecundaria>li:hover{
                 background-color: #803333;
