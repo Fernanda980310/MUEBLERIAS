@@ -8,6 +8,10 @@
     font-family: "symbol";
 }
 
+@font-face{
+    font-family: "TrebuchetMS";
+    src: url(font/TrebuchetMS.ttf);
+}
 
 
 /* borrar estilos por defecto */
@@ -162,5 +166,166 @@
                 
             }
     /* fin de estilos de nav  */
+
+    /*INCIO CARRRUSEL*/
+    .slider{
+        width: 100%;
+        margin: auto;
+        margin-top: 54px;
+        overflow: hidden;
+        border: 1px solid black;
+    }
+
+    .slider ul{
+        padding: 0;
+        display: flex;
+        width: 500%;
+        animation: cambio 20s infinite alternate;
+        animation-timing-function: ease-in;
+    }
+
+    .slider li{
+        list-style: none;
+        width: 100%;
+        background: beige;
+    }
+
+   #cocinass{
+        background: url(../muebleria-master/img/cocina.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 600px;
+    }
+
+    #cuar{
+        background: url(../muebleria-master/img/c.jpg);
+        background-repeat: no-repeat;
+        background-position:center;
+        width: 100%;
+        height: 600px;
+    }
+    #sal{
+        background: url(../muebleria-master/img/sala.jpeg);
+        background-repeat: no-repeat;
+        background-position:center;
+        width: 100%;
+        height: 600px;
+    }
+    #estu{
+        background: url(../muebleria-master/img/estufa.jpg);
+        background-repeat: no-repeat;
+        background-position:center;
+        width: 100%;
+        height: 600px;
+    }
+    #libre{
+        background: url(../muebleria-master/img/libre.jpg);
+        background-repeat: no-repeat;
+        background-position:center;
+        width: 100%;
+        height: 600px;
+    }
+
+
+
+    
+    @keyframes cambio{
+        0%{
+            margin-left: 0%;
+        }
+        15%{
+            margin-left: 0%;
+        }
+        20%{
+            margin-left: -100%;
+        }
+        35%{
+            margin-left: -100%;
+        }
+        40%{
+            margin-left: -200%;
+        }
+        55%{
+            margin-left: -200%;
+        }
+        60%{
+            margin-left: -300%;
+        }
+        75%{
+            margin-left: -300%;
+        }
+        80%{
+            margin-left: -400%;
+        }
+        100%{
+            margin-left: -400%;
+        }
+    }
+
+    #preci{
+        width: 100%;
+        display: block;
+        margin-top: 450px;
+        margin-left: -300px;
+        text-align: end;
+        font-size: 30px;
+        font-family: "TrebuchetMS";
+        color: #9a8966;
+        letter-spacing: 2px;
+        text-shadow: 2px 2px 1px black;
+        cursor: pointer;
+    }
+
+    #preci:hover{
+        color: #4d370d;
+        transform: scale(1.2, 1.2);
+    }
+
+    #itu{
+        display: block;
+        margin-top: 20px;
+        margin-right: 300px;
+        text-align: end;
+        font-size: 30px;
+        font-family: "TrebuchetMS";
+        color: #d47b7f;
+        letter-spacing: 2px;
+        text-shadow: 2px 2px 1px black;
+        cursor: pointer;
+    }
+
+   ul li  #itu:hover{
+        color: #cc4b52;
+        transform: scale(1.2, 1.2);
+    }
+
+     .slider input[type="button"]{
+         display: block;
+         width: 200px;
+         height: 50px;
+         margin-top: -50px;
+         margin-left: 50px;
+         color: white ;
+         background: linear-gradient(to bottom, #9a8966 0%, #3b342f 100%);
+         border: 1px solid #3b342f;
+         border-radius: 30px;
+         cursor: pointer;
+         font-size: 20px;
+         font-family: "TrebuchetMS";
+         text-align: center;
+        }
+
+        .slider input[type="button"]:hover{
+            background: linear-gradient(to bottom, #d1a348 0%, #6b3209 100%);
+            color: black;
+        }
+
+
+
+
+
+
+    /*FIN CARRUSEL*/
 
       
