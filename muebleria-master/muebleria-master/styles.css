@@ -154,7 +154,7 @@
             transition: all 100ms;
         }
         #parte2>ul>li:hover{
-            box-shadow: 0px 0px 3px inset white;
+            box-shadow: 0px 0px 4px #cac5c1 inset;
         }
 
         #parte2>ul>li:hover .listasecundaria{
@@ -185,7 +185,7 @@
             .listasecundaria>li{
                 background-color: black;
                 list-style: none;
-                border-bottom: 1px solid #ccc;
+                border-bottom: 1px solid #ADA29A;
                 border-radius: 0px;
                 height: 48px;
                 width: 100%;
