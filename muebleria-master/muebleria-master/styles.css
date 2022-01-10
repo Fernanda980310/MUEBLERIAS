@@ -19,6 +19,12 @@
     margin: 0px;
     padding: 0px;
 }
+
+
+.clearfix{
+    float: none;
+    clear: both;
+}
  /* inicio estilos del header */
  header{
      background-color: #ADA29A;
@@ -359,6 +365,99 @@
             color: black;
         }
     /*FIN CARRUSEL*/
+
+    /*TARJETAS*/
+    .comedor{
+        width: 46%;
+        height: 850px;
+        margin: 30px;
+        float: left;
+        border: 1px solid #efefef;
+        box-shadow: 1px 1px 1px black;
+    }
+
+    #fotos{
+        width: 500px;
+        margin: 40px;
+        margin-left: 200px;
+        cursor: pointer;
+    }
+
+    #fotos:hover{
+        transform: scale(1.2,1.2);
+    }
+
+    #nombre{
+        font-size: 30px;
+        font-family: "TrebuchetMS";
+        color: gray;
+        letter-spacing: 1px;
+        margin-left: 30px;
+        margin-top: -70px;
+        text-shadow: 2px 2px 1px gray;
+        cursor: pointer;
+        position: relative;
+    }
+
+    #descripcion{
+        font-size: 15px;
+        font-family: "TrebuchetMS";
+        color: gray;
+        margin-left: 30px;
+        margin-top: 20px;
+        padding-right: 20px;
+        text-align: justify;
+        cursor: pointer;
+        position: relative;
+    }
+
+    #descripcion:hover,
+    #nombre:hover{
+        color: burlywood;
+    }
+
+    #precio{
+        font-size: 30px;
+        font-family: "TrebuchetMS";
+        color: rgb(196, 67, 67);
+        margin-left: 30px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        padding-right: 20px;
+        text-align: justify;
+        cursor: pointer;
+    }
+
+    #precio:hover{
+        color: rgb(155, 23, 0);
+    }
+
+    .compra {
+        display: block;
+        width: 200px;
+        height: 50px;
+        margin: 40px;
+        margin-left: 600px;
+        color: white ;
+        background: linear-gradient(to bottom, #2cbd50 0%, #1e6808 100%);
+        border-radius: 30px;
+        cursor: pointer;
+        font-size: 20px;
+        font-family: "TrebuchetMS";
+        text-align: center;
+         border: 1px solid rgb(1, 34, 5);
+    }
+
+    .compra:hover{
+            background: linear-gradient(to bottom, #2570a1 0%, #2643c4 100%);
+            color: black
+    }
+
+  
+
+
+
+    /*FIN TARJETAS*/
 
     /* Estilos para footer */
     footer{
