@@ -1,0 +1,233 @@
+/*TARJETAS*/
+@media(max-width: 1750px){
+    .compra{
+        width: 17%;
+        height: 50px;
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 1585px){
+    .compra{
+        width: 14%;
+        height: 50px;
+        font-size: 12px;
+        border-radius: 20px;
+    }
+    #fotos{
+        width: 60%;
+    }
+    .comedor{
+        height: 726px;
+    }
+}
+
+@media(max-width: 1549px){
+    .comedor{
+        width: 45%;
+        height: 800px;
+    }
+    .compra{
+        width: 16%;
+        height: 50px;
+        font-size: 13px;
+        border-radius: 20px;
+        margin-left: 400px;
+    }
+
+    #nombre{
+        font-size: 27px;
+        text-align: center;
+    }
+}
+    @media(max-width: 1390px){
+        #fotos{
+            width: 63%;
+            margin: 80px;
+        }
+   
+    }
+    @media(max-width: 1240px){
+        .comedor{
+            width: 96%;
+            height: 1150px;
+        }
+        #fotos{
+            width: 60%;
+            margin-left: 242px;
+        }
+        #nombre{
+            font-size: 40px;
+            text-align: center;
+        }
+        #descripcion{
+            font-size: 15px;
+            
+        }
+        .compra{
+            width: 20%;
+            height: 50px;
+            font-size: 20px;
+            border-radius: 20px;
+            margin-left: 500px;
+        }
+
+    }
+    @media(max-width: 1240px){
+        #fotos{
+            width: 60%;
+            margin-left: 222px;
+        }
+    }
+    @media(max-width:860px){
+        .comedor{
+            width: 90%;
+            height: 897px;
+        }
+        #fotos{
+            width: 60%;
+            margin-left: 200px;
+        }
+    }
+
+    @media(max-width:800px){
+        .comedor{
+            height: 870px;
+        }
+        #fotos{
+            width: 60%;
+            margin-left: 150px;
+        }
+        #nombre{
+            font-size: 32px;
+        }
+        .compra{
+            width: 28%;
+            height: 50px;
+            font-size: 18px;
+            border-radius: 20px;
+            margin-left: 259px;
+        }
+    }
+    @media(max-width:555px){
+        .comedor{
+            height: 784px;
+        }
+        #fotos{
+            margin-left: 105px;
+        }
+        #nombre{
+            font-size: 25px;
+        }
+        .compra{
+            width: 40%;
+            height: 50px;
+            font-size: 18px;
+            border-radius: 20px;
+            margin-left: 155px;
+        }
+    }
+
+    @media(max-width:555px){
+        .comedor{
+            width: 87%;
+            height: 680px;
+        }
+        #fotos{
+            margin-left: 80px;
+        }
+        #nombre{
+            font-size: 22px;
+            text-shadow: none;
+        }
+        #precio{
+            font-size: 24px;
+        }
+        .compra{
+            width: 55%;
+            margin-left: 93px;
+        }
+    }
+/*TARJETAS FIN*/
+
+/*CARRUSEL*/
+@media(max-width:1500px){
+    .slider{
+        width: 90%;
+        border: none;
+    }
+    #preci{
+        margin-left: -145px;
+        text-align: end;
+        font-size: 30px;
+    }
+    #itu{
+        margin-right: 175px;
+    }
+}
+
+@media(max-width:1310px){
+    #preci{
+        margin-left: -39px;
+        font-size: 20px;
+        text-shadow: none;
+    }
+    #itu{
+        font-size: 20px;
+        margin-right: 114px;
+        text-shadow: none;
+    }
+   
+    #preci:hover{
+        transform: none;
+    }
+    #itu:hover{
+        transform: none;
+    }
+
+  
+}
+
+@media(max-width:1310px){
+    .slider{
+        width: 100%;
+    }
+    .slider input[type="button"]{
+        width: 16%;
+        margin-top: -15px;
+        margin-left: 9px;
+    }
+}
+@media(max-width:835px){
+    .slider input[type="button"]{
+        width: 32%;
+    }
+    #cocinass,
+    #cuar,
+    #sal,
+    #estu,
+    #libre{
+        height: 700px;
+    }
+    #preci{
+       margin-top: 550px;
+    }
+   
+}
+
+@media(max-width:612px){
+    #libre{
+        height: 658px;
+    }
+    #itu{
+    display: none;
+    }
+    #preci{
+        display: none;
+    }
+    .slider input[type="button"]{
+        width: 45%;
+        margin-top: 605px;
+        margin-left: 142px;
+    }
+}
