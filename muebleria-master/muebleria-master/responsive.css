@@ -45,6 +45,9 @@
             width: 63%;
             margin: 80px;
         }
+        #botones input[type="button"]{
+            font-size: 15px;
+        }
    
     }
     @media(max-width: 1240px){
@@ -79,6 +82,48 @@
             margin-left: 222px;
         }
     }
+    @media(max-width: 1175px){
+        #botones input[type="button"]{
+            margin-right: 10px;
+        }
+        
+
+        
+    }
+
+    @media(max-width: 1105px){
+        #botones input[type="button"]{
+            display: none;
+        }
+        #parte1 #busqueda{
+            position: absolute;
+            margin: 0px auto;
+            margin-top: 90px;
+            width: 35%;
+            margin-left: 32%;
+            
+        }
+        #parte1 {
+            display: block;
+            position: relative;
+            margin: 0px auto;
+            text-align: center;
+        }
+        #parte1 h1{
+            display: block;
+            position: relative;
+            margin: 0px auto;
+            width: 100%;
+            text-align: center;
+        }
+        #contenedor_desplegar{
+            display: block;
+        }
+        #parte2>ul{
+            display: none;
+        }
+
+    }
     @media(max-width:860px){
         .comedor{
             width: 90%;
@@ -107,6 +152,13 @@
             font-size: 18px;
             border-radius: 20px;
             margin-left: 259px;
+        }
+        #busqueda input[type="button"]{
+            font-size: 15px;
+        }
+        #busqueda input[type="text"]{
+            text-align: center;
+            font-size: 10px;
         }
     }
     @media(max-width:555px){
