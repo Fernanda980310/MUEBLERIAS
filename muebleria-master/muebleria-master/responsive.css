@@ -161,6 +161,28 @@
             font-size: 10px;
         }
     }
+
+   @media (max-width:888px) {
+       #location{
+          
+            float: none;
+            margin: 0px auto;
+       }
+       #menufooter{
+        
+        float: none;
+        margin: 0px auto;
+        }
+
+        footer{
+            height: auto;
+
+        }
+
+    }
+       
+   
+
     @media(max-width:555px){
         .comedor{
             height: 784px;

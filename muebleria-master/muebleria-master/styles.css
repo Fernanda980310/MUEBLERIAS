@@ -74,17 +74,23 @@
     #navlateral #name{
         color: white;
     }
+    #navlateral #name2{
+        color: white;
+        height: 30px;
+        margin-right: 10px;
+    }
     #navlateral ul{
         list-style: none;
         text-align: left;
-       
         text-decoration: none;
+        font-size: 30px;
     }
 
     #navlateral ul li{
         text-decoration: none;
         border-bottom: 1px dashed white;
     }
+
 
     #navlateral ul li:hover .listasecundaria{
         display: block;
